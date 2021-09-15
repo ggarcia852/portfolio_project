@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    background-color: black;
+}
+.header {
+    padding: 30px;
+    text-align: right;
+    background-image: url("/Users/ggarcia/Desktop/Coding Temple/portfolio_project/photos/shutterstock_1229824441.png");
+    background-repeat: no-repeat;
+    background-size: 1111px;
+    border: 5px double;
+}
+.header h1 {
+    font-size: 50px;
+    color: lightgray;
+    font-family: 'Rouge Script', cursive;
+}
+#title {
+    color: #5de0e9;
+    font-size: 20px;
+}
+#objective {
+    text-align: right;
+    font-size: 17px;
+    color: #5de0e9;
+    background-color: transparent;
+}
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: lightgray;
+    padding: 14px 16px;
+    margin: auto;
+    text-decoration: none;
+}
+li a:hoover {
+    background-color: honeydew;
+}
+.active {
+    background-color: #136979;
+}
+.latest-project {
+    background-color: #136979;
+    padding: 20px;
+    margin-top: 20px;
+    border: 5px double black;
+    color: white;
+    text-align: center;
+}
+#heading {
+    color:black;
+    text-align: center;
+}
+img {
+    border: 2px double black;
+  }
+.image {
+    padding-top: 5%;
+    align-items: center;
+}
+a:hover{
+    color: #5de0e9;
+}
