@@ -55,11 +55,11 @@ li a:hoover {
 }
 .leftcolumn {
     float: left;
-    width: 75%;
+    width: 65%;
 }
 .rightcolumn {
     float: left;
-    width: 25%;
+    width: 35%;
     background-color: black;
     padding-left: 20px;
 }
@@ -108,4 +108,7 @@ p2 {
 }
 a:hover{
     color: #5de0e9;
+}
+.rightcolumn {
+    text-align: center;
 }
