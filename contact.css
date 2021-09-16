@@ -9,7 +9,8 @@ body {
 .header {
     padding: 30px;
     text-align: right;
-    background-image: url("../photos/shutterstock_1229824441.png");    background-repeat: no-repeat;
+    background-image: url("./photos/shutterstock_1229824441.png");    
+    background-repeat: no-repeat;
     background-size: 1111px;
     border: 5px double;
 }

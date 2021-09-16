@@ -9,7 +9,8 @@ body {
 .header {
     padding: 30px;
     text-align: right;
-    background-image: url("../photos/shutterstock_1229824441.png");    background-repeat: no-repeat;
+    background-image: url("./photos/shutterstock_1229824441.png");
+    background-repeat: no-repeat;
     background-size: 1111px;
     border: 5px double;
 }
@@ -50,22 +51,64 @@ li a:hoover {
 }
 .active {
     background-color: #136979;
+    
 }
-.resume {
+.leftcolumn {
+    float: left;
+    width: 65%;
+}
+.rightcolumn {
+    float: left;
+    width: 35%;
+    background-color: black;
+    padding-left: 20px;
+}
+.card {
     background-color: #136979;
     padding: 20px;
     margin-top: 20px;
-    border: 5px double black;
-    color: white;
-    text-align: center;
-    float: center;
+    border: 5px double;
 }
-h3 {
-    color: black;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p {
+    color:white;
+}
+
+img {
+    border: 5px double black;
+  }
+/* Photos in about me */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}
+#email {
+    color: white
 }
 a {
     color: white;
 }
+p2 {
+    color: white
+}
 a:hover{
     color: #5de0e9;
+}
+.rightcolumn {
+    text-align: center;
 }
